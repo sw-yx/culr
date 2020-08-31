@@ -420,6 +420,12 @@ const App = () => {
           </h3>
         </Fragment>
       )}
+      <small>
+        Source:{" "}
+        <a href="https://github.com/sw-yx/culr">
+          https://github.com/sw-yx/culr
+        </a>
+      </small>
     </div>
   );
 };
