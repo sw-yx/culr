@@ -1,7 +1,3 @@
-# culr
+this is a fork of https://github.com/jh3y/culr
 
-A keyword based color search engine using the Unsplash API.
-
-Built with `Parcel`, `React`, `GSAP`, and serverless `Netlify` functions.
-
-@jh3y 2020
+with supabase added
