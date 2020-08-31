@@ -1,0 +1,51 @@
+h2,
+h3 {
+  display: inline;
+}
+
+.nonbutton {
+  border: 0;
+  background: none;
+  text-decoration: underline;
+  color: #0000ff;
+  cursor: pointer;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginform label {
+  display: flex;
+  justify-content: space-between;
+}
+.loginform .btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginform .btns button {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.22);
+  font: bold 12px/25px Arial, sans-serif;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29),
+    inset 1px 1px 1px rgba(255, 255, 255, 0.44);
+  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29),
+    inset 1px 1px 1px rgba(255, 255, 255, 0.44);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29),
+    inset 1px 1px 1px rgba(255, 255, 255, 0.44);
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -ms-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
